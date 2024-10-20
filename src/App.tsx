@@ -10,89 +10,95 @@ function App() {
 
               <div id={"Menu "}>
                   <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-light mb-2"}>Menu</li>
+                      <li className={"text-2xl font-medium mb-2"}>Меню</li>
                       <li>
-                          <button className={"hover:underline"}>Contact</button>
+                          <button className={"hover:underline"}>Головна</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Shop</button>
+                          <button className={"hover:underline"}>Каталог</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>About</button>
+                          <button className={"hover:underline"}>Про нас</button>
+                      </li>
+                      <li>
+                          <button className={"hover:underline"}>Контакти</button>
                       </li>
                   </ul>
               </div>
               <div id={"User"}>
                   <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-light mb-2"}>
-                          User
+                      <li className={"text-2xl font-medium mb-2"}>
+                          Користувачу
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Contact</button>
+                          <button className={"hover:underline"}>Мої замовлення</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Shop</button>
+                          <button className={"hover:underline"}>Мої повернення</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Data</button>
+                          <button className={"hover:underline"}>Мої дані</button>
+                      </li>
+                      <li>
+                          <button className={"hover:underline"}>Адреси</button>
                       </li>
                   </ul>
               </div>
               <div id={"Category"}>
                   <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-light mb-2"}>
-                          Category
+                      <li className={"text-2xl font-medium mb-2"}>
+                          Категорії
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Led</button>
+                          <button className={"hover:underline"}>Лед екрани</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Music</button>
+                          <button className={"hover:underline"}>Музична апаратура</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Music</button>
+                          <button className={"hover:underline"}>Світло</button>
                       </li>
                   </ul>
               </div>
               <div id={"User"}>
                   <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-light mb-2"}>
-                          Delivery
+                      <li className={"text-2xl font-medium mb-2"}>
+                          ДОСТАВКА ТА ПОВЕРНЕНЯ
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Payments</button>
+                          <button className={"hover:underline"}>Способи оплати</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Cost</button>
+                          <button className={"hover:underline"}>Вартість та час доставки</button>
                       </li>
                       <li>
-                          <button className={"hover:underline"}>Buyback</button>
+                          <button className={"hover:underline"}>Методи повернення</button>
                       </li>
                   </ul>
               </div>
               <div id={"User"}>
                   <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-light mb-2"}>
-                          Grafik
+                      <li className={"text-2xl font-medium mb-2"}>
+                          ГРАФІК РОБОТИ
                       </li>
                       <li>
                           <button className={"hover:underline"}>
-                              Pn-Pt: 9:00-18:00
+                              ПН-ПТ: 9:00-18:00
                           </button>
                       </li>
                       <li>
                           <button className={"hover:underline"}>
-                              Sb-Nd: Doma
+                              СБ-НД: вихідний
                           </button>
                       </li>
                       <li>
                           <button className={"hover:underline"}>
-                              PHONE NUMBER
+                              +380 12 345 6789
                           </button>
                       </li>
                       <li>
                           <button className={"hover:underline"}>
-                              GMAIL
+                              glowen@gmail.com
                           </button>
                       </li>
                   </ul>
@@ -117,6 +123,9 @@ function App() {
                       <img src="../public/gpay.png" alt="GooglePay"/>
                       <img src="../public/visa.png" alt="LiqPay"/>
                   </div>
+              </div>
+              <div className="copy">
+                  Glowen & 2024
               </div>
           </div>
       </footer>
