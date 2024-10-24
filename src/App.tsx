@@ -1,132 +1,75 @@
-import './App.css'
+import './App.css';
+import img1 from '../public/img_1.png';
+import img2 from '../public/img_2.png';
+import img3 from '../public/img_3.png';
+import img4 from '../public/img_4.png';
+import visa from '../public/visa.png';
+import mastercard from '../public/mastercard.png';
+import apay from '../public/apay.png';
+import gpay from '../public/gpay.png';
+import liqpay from '../public/liqpay.png';
+
 
 function App() {
-
-
-    console.log('123')
   return (
-      <footer className={"text-white bg-black static font-light "}>
-          <div className={" p-5 w-full grid gap-2 grid-cols-1 md:grid-cols-5"}>
+      <footer className={"Menus bg-black text-white p-10 "}>
+          <div className={"inline-grid grid-cols-1 md:grid-cols-5  w-full max-md:gap-2"}>
+              <ul className={"rounded-lg w-full justify-center items-center inline-grid max-md:border-2"}>
+                  <li className={" font-semibold mb-5"}>МЕНЮ</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Головна</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Каталог</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Про нас</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Контакти</li>
+              </ul>
+              <ul className={"rounded-lg w-full justify-center items-center inline-grid max-md:border-2"}>
+                  <li className={" font-semibold mb-5"}>КОРИСТУВАЧУ</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Мої замовлення</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Мої повернення</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Мої дані</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Адреси</li>
+              </ul>
+              <ul className={"rounded-lg w-full justify-center items-center inline-grid max-md:border-2"}>
+                  <li className={" font-semibold mb-5"}>КАТЕГОРІЇ</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Лед екрани</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Музична апаратура</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Світло</li>
+              </ul>
+              <ul className={"rounded-lg w-full justify-center items-center inline-grid max-md:border-2"}>
+                  <li className={" font-semibold mb-5"}>ДОСТАВКА ТА ПОВЕРНЕННЯ</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Способи оплати</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Вартість та час доставки</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>Методи повернення</li>
+              </ul>
+              <ul className={"rounded-lg w-full justify-center items-center inline-grid max-md:border-2"}>
+                  <li className={" font-semibold mb-5"}>ГРАФІК РОБОТИ</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>ПН-ПТ: 9:00-18:00</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>СБ-НД: вихідний</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>+380 12 345 6789</li>
+                  <li className={"hover:underline cursor-pointer mb-2"}>gmail@gmail.com</li>
+              </ul>
+          </div>
+          <div className={"inline-grid grid-flow-col mt-10 columns-5 grid-cols-2"}>
 
-              <div id={"Menu "}>
-                  <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-medium mb-2"}>Меню</li>
-                      <li>
-                          <button className={"hover:underline"}>Головна</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Каталог</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Про нас</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Контакти</button>
-                      </li>
-                  </ul>
-              </div>
-              <div id={"User"}>
-                  <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-medium mb-2"}>
-                          Користувачу
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Мої замовлення</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Мої повернення</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Мої дані</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Адреси</button>
-                      </li>
-                  </ul>
-              </div>
-              <div id={"Category"}>
-                  <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-medium mb-2"}>
-                          Категорії
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Лед екрани</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Музична апаратура</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Світло</button>
-                      </li>
-                  </ul>
-              </div>
-              <div id={"User"}>
-                  <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-medium mb-2"}>
-                          ДОСТАВКА ТА ПОВЕРНЕНЯ
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Способи оплати</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Вартість та час доставки</button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>Методи повернення</button>
-                      </li>
-                  </ul>
-              </div>
-              <div id={"User"}>
-                  <ul className={"space-y-2 border border-gray-600 p-2 rounded-lg"}>
-                      <li className={"text-2xl font-medium mb-2"}>
-                          ГРАФІК РОБОТИ
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>
-                              ПН-ПТ: 9:00-18:00
-                          </button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>
-                              СБ-НД: вихідний
-                          </button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>
-                              +380 12 345 6789
-                          </button>
-                      </li>
-                      <li>
-                          <button className={"hover:underline"}>
-                              glowen@gmail.com
-                          </button>
-                      </li>
-                  </ul>
+              <section className={"grid grid-flow-col items-center grid-cols-4 w-40 gap-4 text-2xl"}>
+                  <img className={"cursor-pointer"} src={img1} alt=""/>
+                  <img className={"cursor-pointer"} src={img2} alt=""/>
+                  <img className={"cursor-pointer"} src={img3} alt=""/>
+                  <img className={"cursor-pointer"} src={img4} alt=""/>
+              </section>
 
-              </div>
-              <div className="foot">
-                  <ul className={"grid grid-flow-col gap-4 w-80"}>
-                      <li><img src="../public/img_4.png" alt=""/></li>
-                      <li><img src="../public/img_1.png" alt=""/></li>
-                      <li><img src="../public/img_2.png" alt=""/></li>
-                      <li><img src="../public/img_3.png" alt=""/></li>
-                      <h1>Платіть Карткою:</h1>
-                  </ul>
+              <section className="inline-grid grid-flow-col justify-center items-center text-2xl gap-5 h-10">
+                  <h1 className="">Платіть карткою:</h1>
+                  <img className="cursor-pointer" src={visa} alt="Visa"/>
+                  <img className="cursor-pointer" src={mastercard} alt="MasterCard"/>
+                  <img className="cursor-pointer" src={apay} alt="Apple Pay"/>
+                  <img className="cursor-pointer" src={gpay} alt="Google Pay"/>
+                  <img className="cursor-pointer" src={liqpay} alt="LiqPay"/>
+              </section>
 
+          </div>
+          <div className="copy float-right pt-5">
+              <p className={"inline-grid columns-0"}>Glowen &copy; 2024</p>
 
-              </div>
-              <div className={"grid  gap-4 text-white grid-flow-col "}>
-                  <div className={"w-80 grid grid-cols-6 grid-flow-col "}>
-                      <img src="../public/visa.png" alt="VISA"/>
-                      <img src="../public/mastercard.png" alt="MasterCard"/>
-                      <img src="../public/apay.png" alt="ApplePay"/>
-                      <img src="../public/gpay.png" alt="GooglePay"/>
-                      <img src="../public/visa.png" alt="LiqPay"/>
-                  </div>
-              </div>
-              <div className="copy">
-                  Glowen & 2024
-              </div>
           </div>
       </footer>
   )
